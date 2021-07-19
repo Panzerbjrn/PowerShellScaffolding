@@ -79,7 +79,7 @@ Function Create-NewModuleStructure
 
 		$PSMContent | Add-Content "$Path\$ModuleName.psm1" -Force
 		$PSDContent | Add-Content "$Path\$ModuleName.psd1" -Force
-		$AboutHelpContentenGB | Add-Content -Path "$Path\en-GB\about_$ModuleName.help.txt"
+		$AboutHelpContentenGB | Add-Content -Path $(Join-Path -Path $Path -ChildPath "en-GB\about_$ModuleName.help.txt")
 		$PowerShellTemplateDoFunction | Add-Content -Path "$Path\Templates\PowerShell.Template.Function.Do-Something.ps1"
 		$PowerShellTemplateGetFunction | Add-Content -Path "$Path\Templates\PowerShell.Template.Function.Get-Something.ps1"
 		$PowerShellTemplateVerbNoun | Add-Content -Path "$Path\Templates\PowerShell.Template.Function.Verb-Noun.ps1"
