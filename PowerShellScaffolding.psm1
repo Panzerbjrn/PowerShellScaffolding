@@ -1,10 +1,10 @@
-#region Script Header
+ï»¿#region Script Header
 #	Thought for the day:
 #	NAME: PowerShellScaffolding.psm1
-#	AUTHOR: Lars Panzerbjørn
-#	CONTACT: lpetersson@hotmail.com / GitHub: Panzerbjrn / Twitter: lpetersson
+#	AUTHOR: Lars PanzerbjÃ¸rn
+#	CONTACT: GitHub: Panzerbjrn / Twitter: Panzerbjrn
 #	DATE: 2019.06.20
-#	VERSION: 0.1 - 2019.06.20 - Module Created with Create-NewModuleStructure by Lars Panzerbjørn
+#	VERSION: 0.1 - 2019.06.20 - Module Created with Create-NewModuleStructure by Lars PanzerbjÃ¸rn
 #
 #	SYNOPSIS:
 #
