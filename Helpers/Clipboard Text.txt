@@ -1,1 +1,0 @@
-    Add-Content -Value (Get-Content "$PSScriptRoot\ModuleName.psm1") -Path "$Path\$ModuleName.psm1"
